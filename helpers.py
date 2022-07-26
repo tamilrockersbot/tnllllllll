@@ -35,7 +35,7 @@ class Helpers:
         return MDISK_API
 
     @property
-    async def user_droplink_api(self):
+    async def user_tnlinks_api(self):
         return TNLINKS_API
     
     @property
