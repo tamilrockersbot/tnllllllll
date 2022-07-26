@@ -170,8 +170,8 @@ START_MESSAGE_REPLY_MARKUP  = InlineKeyboardMarkup([
 
 METHOD_REPLY_MARKUP = InlineKeyboardMarkup([
     [
-        InlineKeyboardButton('MDLINK', callback_data=f'change_method#mdlink'),
-        InlineKeyboardButton('Droplink', callback_data='change_method#droplink'),
+        InlineKeyboardButton('MTLINK', callback_data=f'change_method#mtlink'),
+        InlineKeyboardButton('Tnlinks', callback_data='change_method#tnlinks'),
         InlineKeyboardButton('Mdisk', callback_data='change_method#mdisk')
     ],
         [
