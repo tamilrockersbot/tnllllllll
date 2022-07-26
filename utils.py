@@ -260,7 +260,7 @@ async def tnlinks_bypass_handler(text):
 
 
 # credits -> https://github.com/TheCaduceus/Link-Bypasser
-async def droplink_bypass(url):
+async def tnlinks_bypass(url):
     try:
         # client = aiohttp.ClientSession()
         async with aiohttp.ClientSession() as client:
