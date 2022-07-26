@@ -2,13 +2,13 @@
   "name": "Url-Shortener-bot-V2",
   "description": "Make short link by using Shortener using API key",
   "stack": "container",
-  "logo": "https://i.ibb.co/1mwchh9/Screenshot-2022-07-08-at-11-06-34-AM.png",
+  "logo": "https://telegra.ph/file/b30438d742bde4ae0b4f9.jpg",
   "keywords": [
     "telegram",
     "shortener"
   ],
   "website": "https://github.com/T2links/",
-  "repository": "https://github.com/kevinnadar22/URL-Shortener-V2",
+  "repository": "https://github.com/GreyMatter658/Tnlinks_Mdisk_bot_repo",
   "env": {
     "BOT_TOKEN": {
       "description": "Your bot token from @botfather",
@@ -23,7 +23,7 @@
       "value": ""
     },
     "TNLINKS_API": {
-      "description": "Enter your TNLINK API KEY only if METHOD is selected to tnlink. Get your API from https://tnlinks.in/member/tools/api",
+      "description": "Enter your TNLINKS API KEY only if METHOD is selected to tnlinks. Get your API from https://tnlinks.in/member/tools/api",
       "value": "0"
     },
     "MDISK_API": {
