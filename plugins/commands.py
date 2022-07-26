@@ -38,7 +38,7 @@ async def help_command(c, m):
             firstname=temp.FIRST_NAME,
             username=temp.BOT_USERNAME,
             repo=SOURCE_CODE,
-            owner="@ask_admin001" )
+            owner="@GreyMatter_Bots" )
     if WELCOME_IMAGE:
         return await m.reply_photo(photo=WELCOME_IMAGE, caption=s, reply_markup=HELP_REPLY_MARKUP)
     await m.reply_text(s, reply_markup=HELP_REPLY_MARKUP, disable_web_page_preview=True)
