@@ -30,7 +30,7 @@ async def on_callback_query(bot:Client, query:CallbackQuery):
             firstname=temp.FIRST_NAME,
             username=temp.BOT_USERNAME,
             repo=SOURCE_CODE,
-            owner="@ask_admin001" ), reply_markup=HELP_REPLY_MARKUP, disable_web_page_preview=True)
+            owner="@Moksh_b658" ), reply_markup=HELP_REPLY_MARKUP, disable_web_page_preview=True)
 
     elif query.data == 'about_command':
         bot = await bot.get_me()
