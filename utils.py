@@ -50,7 +50,7 @@ async def main_convertor_handler(message:Message, type:str, edit_caption:bool=Fa
     METHODS = {
         "mdisk": replace_mdisk_link,
         "tnlinks": replace_link,
-        "mdlink": mdisk_tnlinks_convertor
+        "mtlink": mdisk_tnlinks_convertor
     }
 
     # Replacing the username with your username.
@@ -82,7 +82,7 @@ async def main_convertor_handler(message:Message, type:str, edit_caption:bool=Fa
         
 
     if message.text:
-        if user_method in ["tnlinks", "mdlink"] :
+        if user_method in ["tnlinks", "mtlink"] :
             if '|' not in caption:
                 pass
             else:
@@ -249,7 +249,7 @@ async def tiny_url_main(url):
     s = pyshorteners.Shortener()
     return s.tinyurl.short(url)
 
-# todo -> bypass long droplink url
+# todo -> bypass long tnlinks url
 async def tnlinks_bypass_handler(text):
     links = re.findall(r'https?://tnlinks.in[^\s"*<>]+', text)	
     for link in links:
